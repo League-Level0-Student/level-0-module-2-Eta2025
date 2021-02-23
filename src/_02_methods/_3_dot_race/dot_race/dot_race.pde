@@ -1,7 +1,6 @@
 /*** When you are done, this program will draw an ellipse 
      that travels across the screen when the mouse is pressed.
 ***/
-
   /***********  SOUND ***************
    * Some computers are unable to play sounds. 
    * If you cannot play sound on this computer, set canPlaySounds to false.
@@ -15,7 +14,7 @@ void setup() {
     size(800, 200);
     
     //1. Set the variable named x to 50.
-}
+}   
 
 void draw() {
 

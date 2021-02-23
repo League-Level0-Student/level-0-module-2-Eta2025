@@ -10,11 +10,11 @@ import javax.swing.JOptionPane;
 public class Validation {
 	public static void main(String[] args) {
 		
-		for( int r = 0; r < 10; r++){
+		for( int r = 1; r < 11; r++){
 	
 		Random randomMaker = new Random();
 		
-		int randomNumber = randomMaker.nextInt(6-1+1);
+		int randomNumber = randomMaker.nextInt(5+1);
 		
 		System.out.println(randomNumber);
 		  
