@@ -13,7 +13,13 @@ public class RollerCoaster {
 		// Uncomment the line below...
 			//if( HeightToRide > 42 ) { }
 		int numH = Integer.parseInt(heightToRide);
-		if (numH > 48) { JOptionPane.showMessageDialog("you can ride alone");
+		if (numH > 48) { JOptionPane.showMessageDialog(null, "you can ride alone");
+		} 
+		if (numH < 42 ) {JOptionPane.showMessageDialog(null, " grow more ");
+		
+		}
+		if ( numH > 42 &&  numH <47) {JOptionPane.showMessageDialog(null, "you need to go with someone");
+		
 		}
 		}
 		// Do you see the heightToRide > 42 underlined red? That is because you are comparing a STRING to an INTEGER.
